@@ -1,0 +1,45 @@
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+}
+
+.streamer{
+    display: flex;
+    gap:12px;
+    width: max-content;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #343a40;
+    width: min-content;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.streamer > img {
+border-radius: 9999px;
+border: 4px solid rgb(237, 237, 237);
+transition: 0.8s all;
+height: 64px;
+}
+
+.streamer:hover > img{
+    transform: rotate(-10deg)scale(1.5);
+}
+
+.like{
+    cursor: pointer;
+    transition: 1s all;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.like:hover{
+    transform: scale(1.5);
+}
