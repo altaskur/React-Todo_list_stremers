@@ -1,7 +1,7 @@
 # Express-like
 
-Un proyecto creado junto al gran @Chrisvdev
-para el directo de introducción a React
+Un proyecto creado junto al gran [chrisvill2312](https://github.com/chrisvill2312)
+para el directo de introducción a React 
 
 Consta de dos partes:
 
